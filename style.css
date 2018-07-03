@@ -1,0 +1,9 @@
+.jumbotron {
+    position: fixed;
+    background: #000 url("Images/Hero.JPG") left bottom;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+    height: 700px;
+  }
+  
