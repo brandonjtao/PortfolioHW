@@ -1,9 +1,50 @@
-.jumbotron {
-    position: fixed;
-    background: #000 url("Images/Hero.JPG") left bottom;
-    width: 100%;
-    background-size: cover;
-    color: #fff;
-    height: 700px;
+.jumbotron{
+  position: relative;
+  z-index:-2;
+  height: auto;
+  border: 1px solid red;
+
+}
+
+#video-background { 
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  width:100%;
+  min-height: 500px;
+}
+
+.HeroText {
+  border: 1px solid red;
+}
+
+.box {
+  background-color: white;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.display-4 {
+  font-family: 'Oswald', sans-serif;
   }
-  
+
+.lead {
+  font-family: 'Quattrocento', serif;
+  }
+
+.navbar-brand img{
+  height: 40px;
+  }
+
+.navbar-dark {
+background-color: #0B7A75; 
+  }
+
+.btn-primary {
+  background-color: #0B7A75;
+  }
